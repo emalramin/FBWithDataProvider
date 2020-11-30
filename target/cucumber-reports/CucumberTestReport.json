@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7780786700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "facebook-signup;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1996123500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on signup page",
+            "match": {
+              "location": "StepDefinitions.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674907799,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter firstName \"khan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "khan",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.user_enter_firstName_khan(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256928900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter lastName \"jan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jan",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.user_enter_lastName_jan(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402017300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter email \"khanjan@edu.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "khanjan@edu.com",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.user_enter_email_khanjan_edu_com(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477525200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter password \"khanjan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "khanjan",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.user_enter_password_khanjan(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251891100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on signup button",
+            "match": {
+              "location": "StepDefinitions.user_click_on_signup_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Signup",
+    "description": "",
+    "id": "facebook-signup",
+    "keyword": "Feature",
+    "uri": "C:/Users/ardcs/eclipse-workspace-two/CucumberWithDataProv/src/test/resources/features/Facebook.feature"
+  }
+]
